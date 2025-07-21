@@ -5,9 +5,9 @@ name: Simple actionn workflow
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-push:
+  push:
     branches: [ "github_tf" ]
-    workflow_dispatch:
+      workflow_dispatch:
   # pull_request:
   #   branches: [ "main" ]
 
